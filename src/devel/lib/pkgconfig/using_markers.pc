@@ -1,0 +1,8 @@
+prefix=/home/maowei/catkin_ws/src/devel
+
+Name: using_markers
+Description: Description of using_markers
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/maowei/catkin_ws/src/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/maowei/catkin_ws/src/devel
+
+Name: ras_msgs
+Description: Description of ras_msgs
+Version: 0.1.0
+Cflags: -I/home/maowei/catkin_ws/src/devel/include
+Libs: -L/home/maowei/catkin_ws/src/devel/lib 
+Requires: message_runtime
