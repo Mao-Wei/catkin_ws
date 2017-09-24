@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Project@src</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j4</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/maowei/catkin_ws/src</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/maowei/catkin_ws/src</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/gtest</name>
+			<type>2</type>
+			<location>/usr/src/gtest</location>
+		</link>
+		<link>
+			<name>[Subprojects]/phidgets</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_phidget</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_espeak</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_espeak</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_lab1</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_lab1_distance_sensor</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_distance_sensor</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_lab1_launch</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_launch</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_lab1_motors</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_motors</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_lab1_msgs</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_msgs</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_lab1_world</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_world</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_maze_distance_sensor</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_maze/ras_maze_distance_sensor</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_maze_launch</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_maze/ras_maze_launch</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_maze_map</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_maze/ras_maze_map</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ras_msgs</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_msgs</location>
+		</link>
+		<link>
+			<name>[Subprojects]/realsense_camera</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera</location>
+		</link>
+		<link>
+			<name>[Subprojects]/rplidar_ros</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar</location>
+		</link>
+		<link>
+			<name>[Subprojects]/uarm</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/ras_uarm</location>
+		</link>
+		<link>
+			<name>[Subprojects]/using_markers</name>
+			<type>2</type>
+			<location>/home/maowei/catkin_ws/src/using_markers</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Source Files/gtest-all.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest-all.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Source Files/gtest_main.cc</name>
+			<type>1</type>
+			<location>/usr/src/gtest/src/gtest_main.cc</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] gtest_main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] kobuki_motors/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/Source Files/kobuki_motors_node.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_motors/src/kobuki_motors_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] kobuki_motors_node/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/Source Files/world_main.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_world/src/world_main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] world_node/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/Source Files/maze_map_node.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_maze/ras_maze_map/src/maze_map_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ras_maze_map_node/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Source Files/node.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar/src/node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Source Files/net_serial.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar/sdk/src/arch/linux/net_serial.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Source Files/timer.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar/sdk/src/arch/linux/timer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Source Files/thread.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar/sdk/src/hal/thread.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Source Files/rplidar_driver.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar/sdk/src/rplidar_driver.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNode/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/Source Files/client.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_rplidar/src/client.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] rplidarNodeClient/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/Source Files/distance_sensor_test_node.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_distance_sensor/src/distance_sensor_test_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] distance_sensor_test_node/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/Source Files/generate_distance_node.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_lab1/ras_lab1_distance_sensor/src/generate_distance_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] distance_sensor_maze/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/Source Files/generate_distance_node.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_maze/ras_maze_distance_sensor/src/generate_distance_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/Header Files/distance_sensor.h</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_maze/ras_maze_distance_sensor/include/maze_distance_sensor/distance_sensor.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] generate_distance_node_maze/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Source Files/base_nodelet.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera/src/base_nodelet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Source Files/r200_nodelet.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera/src/r200_nodelet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Source Files/f200_nodelet.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera/src/f200_nodelet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Source Files/sr300_nodelet.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera/src/sr300_nodelet.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] realsense_camera_nodelet/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/Source Files/camera_core.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera/test/camera_core.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_camera_core/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/Source Files/rgbd_topics.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_realsense/realsense_camera/test/rgbd_topics.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tests_rgbd_topics/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/Source Files/interface_kit.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_phidget/src/interface_kit.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/Source Files/interface_kit_client.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_phidget/src/interface_kit_client.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] interface_kit_client/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/Source Files/motor.cpp</name>
+			<type>1</type>
+			<location>/home/maowei/catkin_ws/src/ras_phidget/src/motor.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] motor/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
